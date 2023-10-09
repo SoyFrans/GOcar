@@ -1,0 +1,107 @@
+@media (max-width: 1500px) {
+
+    /*HEADER*/
+    .header, .hero, .footer {
+        width: 1520px;
+    }
+
+    /*ABOUT*/
+    .about {
+        display: flex;
+    }
+    .about-container {
+        margin-left: 5%;
+    }
+
+    .about-title {
+        font-size: 32px;
+    }
+
+    .about-txt p {
+        font-size: 16px;
+    }
+
+    .article-img {
+        width: 700px;
+        margin-right: 40px;
+    }
+
+    /*CARDS*/
+    .cards-title h1 {
+        font-size: 50px;
+    }
+    
+    /*CARDS-RATING*/
+
+    .cards-rating {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1400px) {
+    /*CARDS*/
+
+    .cards-container {
+        flex-wrap: wrap;
+    }
+
+    .cards-exp, .location-contacts {
+        margin-left: 70px;
+    }
+
+    .location-container, .contacts {
+        width: 650px;
+    }
+}
+
+@media (max-width: 576px) {
+    header {
+        padding: 0 60px;
+    }
+
+    .principal, .navbar-list {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+    }
+    
+    .burger ul {
+        background-color: rgb(184, 185, 187);
+        box-shadow: 0px 20px 20px black;
+        width: 100%;
+        height: calc(1000vh - 80px);
+        position: absolute;
+        top: 80px;
+        left: 200px;
+        flex-direction: column;
+        gap: 0;
+        display: none;
+    }
+
+    .burger i {
+        display: block;
+    }
+
+    #toggle-menu:checked ~ .burger-list {
+        display: flex;
+    }
+
+    .item-list {
+        border-bottom: 1px solid black;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .info-container {
+        height: 500px;
+        padding: 10px;
+    }
+
+    .article-container img {
+        display: none;
+    }
+    
+}
+

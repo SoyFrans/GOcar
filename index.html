@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media-querys.css">
+    <link rel="stylesheet" href="assets/css/animaciones.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>GOcar</title>
+</head>
+<body>
+    <header class="header">
+        <img class="img-logo" src="assets/img/logo_Mesa de trabajo 1.png" alt="website"> 
+        
+        <nav class="navbar">  
+            <div class="burger">
+                <label for="toggle-menu"><i class="fa-solid fa-bars"></i></label>
+                <input type="checkbox" id="toggle-menu"/>
+                <ul class="burger-list list">
+                    <li class="item-list">
+                        <a href="#">Inicio</a>
+                    </li>
+                    <li class="item-list">
+                        <a href="#">Nosotros</a>
+                    </li>
+                    <li class="item-list">
+                        <a href="#">Contactos</a>
+                    </li>
+                </ul>
+                <div class="overlay"></div>
+            </div>
+            <div class="principal">
+                <ul class="principal-list">
+                    <li class="principal-item">
+                        <a href="#">Cómo funciona</a>
+                    </li>
+                    <li class="principal-item">
+                        <a href="#">Nuestros planes</a>
+                    </li>
+                    <li class="principal-item">
+                        <a href="#">Contacto</a>
+                    </li>
+                </ul> 
+            </div>
+        </nav>
+        <div class="btn">
+            <ul class="list">
+                <li class="list-login"><a href="#">Iniciar Sesión</a></li>
+                <h4>O registrate, <a id="login" href="#">haciendo click acá</a></h4>
+            </ul>
+        </div>
+    </header>
+    
+    <main>
+        <section class="qr">
+            <div class="qr-container">
+                <h1>¡Descarga la app!</h1>
+                <img class="qr-img" src="assets/img/QR.png">
+            </div>
+        </section>
+
+        <section class="hero">
+            <article class="hero-container">
+                <div class="hero-title">
+                    <h1>POTENCIA TU VIAJE,</h1>
+                    <h2>CUIDA EL PLANETA</h2>
+                    <h3>Eleva tu experiencia de manejo con autos eléctricos de última generación.</h3>
+                </div>
+            </article>
+        </section>
+        
+        <section class="about">
+            <div class="about-container">
+                <div class="about-txt">
+                    <h3>Tecnología</h3>
+                    <h2 class="about-title">Creemos en la movilidad sostenible como el camino hacia un futuro mejor.
+                    </h2>
+                    <p>En <span>GOcar</span> nuestros vehículos eléctricos te ofrecen la oportunidad de experimentar la conducción del mañana, hoy. Con un compromiso inquebrantable hacia la sostenibilidad y la comodidad del cliente, estamos impulsando el cambio hacia un mundo con cero emisiones. Únete a nosotros en este emocionante viaje hacia un planeta más limpio y una movilidad más inteligente.</p>
+                </div>
+                <img class="article-img" src="assets/img/cars-montain.jpg" alt="Auto eléctrico">
+            </div>
+        </section>
+        
+        <section class="function">
+            <div class="function-title">
+                <h1>¿Cómo Funciona?</h1>
+                <h2>Te explicamos en <span>3 simples pasos.</span></h2>
+            </div>
+            
+            <article class="function-container">
+                <ul class="btn-list">
+                    <li class="btn-list-container">
+                        <h3 class="click-btn">1</h3>
+                        <label for="toggle-function-uno"><i class="fa-solid fa-mobile-screen"></i></label>
+                        <input type="checkbox" id="toggle-function-uno"/>
+                        <div class="list-ctn uno">
+                            <p>Inicia sesión y descarga la app en tu Android o Apple, coloca tu licencia de conducir y tu tarjeta de crédito o débito.</p>
+                        </div>
+                    </li>
+                    
+                    <li class="btn-list-container">
+                        <h3 class="click-btn">2</h3>
+                        <label for="toggle-function-dos"><i class="fa-solid fa-map-location-dot"></i></label>
+                        <input type="checkbox" id="toggle-function-dos"/>
+                        <div class="list-ctn dos">
+                            <p>Conocé nuestros <a href="#location">PuntosGO</a> más cercanos. Elige entre reservar ahora o más tarde.</p>
+                        </div>
+                    </li>
+                    
+                    <li class="btn-list-container">
+                        <h3 class="click-btn">3</h3>
+                        <label for="toggle-function-tres"><i class="fa-solid fa-car"></i></label>
+                        <input type="checkbox" id="toggle-function-tres"/>
+                        <div class="list-ctn tres">
+                            <p>¡Y listo! Todo se controla desde la app. Disfrutá de tu viaje como nunca.</p>
+                        </div>
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="cards">
+            <div class="cards-title">
+                <h1>Planes a medida para tu aventura sobre ruedas</h1>
+                <h2>¡Tus viajes, tus planes, tu elección!</h2>
+            </div>
+            <article class="cards-container">
+                <div class="cards-car cheap">
+                    <img class="cards-img" src="assets/img/car2.webp">
+                    <h3>TX-290</h3>
+                    <ul class="cards-list">
+                        <li class="cards-item">Cap. Max: 3 personas</li>
+                        <li class="cards-item">$3 por hora</li>
+                        <li class="cards-item">$60 el día (24hs.)</li>
+                        <li class="cards-item">(opcional: 12$ en caso de accidente o daños)</li>
+                    </ul>
+                </div>
+
+                <div class="cards-car middle">
+                    <img class="cards-img" src="assets/img/car2.webp">
+                    <h3>GL-100</h3>
+                    <ul class="cards-list">
+                        <li class="cards-item">Cap. Max: 5 personas</li>
+                        <li class="cards-item">$9 por hora</li>
+                        <li class="cards-item">$100 el día (24hs.)</li>
+                        <li class="cards-item">(opcional: 12$ en caso de accidente o daños)</li>
+                    </ul>
+                </div>
+
+                <div class="cards-car expensive">
+                    <img class="cards-img" src="assets/img/car2.webp">
+                    <h3>WEL-182</h3>
+                    <ul class="cards-list">
+                        <li class="cards-item">
+                            Cap. Max: 6 personas
+                        </li>
+                        <li class="cards-item">$12 por hora</li>
+                        <li class="cards-item">$130 el día (24hs.)</li>
+                        <li class="cards-item">(opcional: 12$ en caso de accidente o daños)</li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+        <section class="cards-exp">
+            <div class="cards-exp-title">
+                <h1>Siempre pensamos en vos</h1>
+                <h3>Mirá las experiencias de nuestros usuarios</h3>
+            </div>
+            <article class="cards-rating">
+                <ul class="profile">   
+                    <li class="profile-user">  
+                        <img src="assets/img/messi.jpg" class="profile-img">
+                        <div class="name-user">
+                            <h2>Lionel, Messi</h2>
+                            <ul class="stars">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul> 
+                        </div>  
+                    </li>
+                        
+                    <li class="rating-txt">
+                        <p>"El servicio fue excelente. La atención fue impecable, y los autos estaban en perfectas condiciones. Una experiencia de 10/10 en todos los aspectos."</p>
+                    </li>
+                </ul>
+
+                <ul class="profile">   
+                    <li class="profile-user">  
+                        <img src="assets/img/RyanGosling.jpg" class="profile-img">
+                        <div class="name-user">
+                            <h2>Ryan, Gosling</h2>
+                            <ul class="stars">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul> 
+                        </div>  
+                    </li>
+                        
+                    <li class="rating-txt">
+                        <p>"I had a great experience with the car rental service, but I did have to pay extra for damages. Overall, it was a positive experience, but the additional charges were a bit disappointing..."</p>
+                    </li>
+                </ul>
+
+                <ul class="profile">   
+                    <li class="profile-user">  
+                        <img src="assets/img/Toretto.jpg" class="profile-img">
+                        <div class="name-user">
+                            <h2>Dominic, Toretto</h2>
+                            <ul class="stars">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul> 
+                        </div>  
+                    </li>
+                        
+                    <li class="rating-txt">
+                        <p>"El servicio de alquiler de autos fue decente, pero no es nada comparado con la familia."</p>
+                    </li>
+                </ul>
+
+                <ul class="profile">   
+                    <li class="profile-user">  
+                        <img src="assets/img/Duki.webp" class="profile-img">
+                        <div class="name-user">
+                            <h2>El Duko</h2>
+                            <ul class="stars">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul> 
+                        </div>  
+                    </li>
+                        
+                    <li class="rating-txt">
+                        <p>"La movida estuvo zarpada gracias a estas máquinas. Me la pasé genial andando por ahí. Ponele que tuve que poner algo de cash extra por unos raspones jaja pero los chicos se la re bancaron, gracias por todo loco."</p>
+                    </li>
+                </ul>
+
+                <ul class="profile">   
+                    <li class="profile-user">  
+                        <img src="assets/img/User.jpg" class="profile-img">
+                        <div class="name-user">
+                            <h2>Martina, Garvich</h2>
+                            <ul class="stars">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul> 
+                        </div>  
+                    </li>
+                        
+                    <li class="rating-txt">
+                        <p>"Estoy impresionada por la flota de autos eléctricos de esta empresa. Es genial ver que están comprometidos con la movilidad sostenible ¡Una hermosa experiencia!"</p>
+                    </li>
+                </ul>
+
+                <ul class="profile">   
+                    <li class="profile-user">  
+                        <img src="assets/img/User.jpg" class="profile-img">
+                        <div class="name-user">
+                            <h2>Ruben, Partuzo</h2>
+                            <ul class="stars">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul> 
+                        </div>  
+                    </li>
+                        
+                    <li class="rating-txt">
+                        <p>"Excelente!!!"</p>
+                    </li>
+                </ul>
+
+                <ul class="profile">   
+                    <li class="profile-user">  
+                        <img src="assets/img/User.jpg" class="profile-img">
+                        <div class="name-user">
+                            <h2>Jhonatan, Wallace</h2>
+                            <ul class="stars">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul> 
+                        </div>  
+                    </li>
+                        
+                    <li class="rating-txt">
+                        <p>"An excellent service! I travelled with my family this winter and we drived for this beautiful city"</p>
+                    </li>
+                </ul>
+
+                <ul class="profile">   
+                    <li class="profile-user">  
+                        <img src="assets/img/User.jpg" class="profile-img">
+                        <div class="name-user">
+                            <h2>Aldana, Vazquéz</h2>
+                            <ul class="stars">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul> 
+                        </div>  
+                    </li>
+                        
+                    <li class="rating-txt">
+                        <p>"Es un poco caro, pero vale la pena si viajás y querés conocer todo a tu ritmo! No dependés de ninguna agencia de turismo."</p>
+                    </li>
+                </ul>
+                
+            </article>
+
+            
+        </section>
+        <section class="location-contacts">
+            <article id="location" class="location-container"> 
+                <div class="location-title">
+                    <i class="fa-solid fa-location-arrow"></i>
+                    <h1>Conocé nuestros </h1>
+                    <h3>PuntosGo</h3>
+                </div>
+                <ul class="location-list">
+                    <li class="point">
+                        <div class="city-point">
+                            <input type="checkbox" id="toggle-map-uno"/>
+                            <div class="city-container">
+                                <label for="toggle-map-uno"><i class="fa-solid fa-angle-down"></i></label>
+                                <label><i class="fa-solid fa-location-dot"></i></label>
+                                <h4>Ciudad</h4>
+                            </div>
+                             
+                            <div class="map" style="width: 100%"><iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=32%C2%B052'17.0%22S%2068%C2%B050'22.3%22W+(GOcar)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/car-satnav-gps/">Sat Navs</a></iframe></div>
+                        </div>
+                        
+                    </li>
+                    <li class="point">
+                        <div class="city-point">
+                            <input type="checkbox" id="toggle-map-dos"/>
+                            <div class="city-container">
+                                <label for="toggle-map-dos"><i class="fa-solid fa-angle-down"></i></label>
+                                <label><i class="fa-solid fa-location-dot"></i></label>
+                                <h4>Tupungato</h4>
+                            </div>
+                             
+                            <div class="map" style="width: 100%"><iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=32%C2%B052'17.0%22S%2068%C2%B050'22.3%22W+(GOcar)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/car-satnav-gps/">Sat Navs</a></iframe></div>
+                        </div>
+                    </li>
+                    <li class="point">
+                        <div class="city-point">
+                            <input type="checkbox" id="toggle-map-tres"/>
+                            <div class="city-container">
+                                <label for="toggle-map-tres"><i class="fa-solid fa-angle-down"></i></label>
+                                <label><i class="fa-solid fa-location-dot"></i></label>
+                                <h4>Potrerillos</h4>
+                            </div>
+                             
+                            <div class="map" style="width: 100%"><iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=32%C2%B052'17.0%22S%2068%C2%B050'22.3%22W+(GOcar)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/car-satnav-gps/">Sat Navs</a></iframe></div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </article>
+
+            <article class="contacts">
+                <div class="contacts-title">
+                    <i class="fa-solid fa-leaf"></i>
+                    <h1>Contactanos</h1>
+                    <h3>Estamos acá para ayudarte</h3>
+                </div>
+                <ul class="contacts-list">
+                    <div class="wpp">
+                        <li class="number">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            261-876543 (Mendoza)
+                        </li>
+                        <li class="number">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            351-987562 (Córdoba)</li>
+                        <li class="number">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            922-876123 (Santa Cruz)
+                        </li>
+                    </div>
+                    <div class="email">
+                        <li class="number">
+                            <i class="fa-regular fa-envelope"></i>
+                            gocar_arg@gmail.com
+                        </li>
+                    </div>
+                    
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="suscribe">
+                <h1>¡Suscribite!</h1>
+                <h2>¡Recibí un 15% de descuento con el código GO2023!</h2>
+                <form class="suscribe-button">
+                    <textarea type="email" for="email-button">Email</textarea>
+                    <input type="submit" id="email-button" value="Enviar"/>
+                </form>
+            </div>
+            <div class="logo-container">
+                <a href="#">
+                    <img src="assets/img/GOcar-white.png" alt="logo footer">
+                </a>
+                <span>© Copyright. All rights reserved.</span>
+            </div>
+            <div class="social-net">
+                <ul class="social-list">
+                    <li class="red-item"><i class="fa-brands fa-instagram"></i><a href="instagram.com" target="_blank">Instagram</a></li>
+                    <li class="red-item"><i class="fa-brands fa-square-facebook"></i><a href="facebook.com" target="_blank">Facebook</a></li>
+                    <li class="red-item"><i class="fa-brands fa-square-x-twitter"></i><a href="twitter.com" target="_blank">Twitter</a></li>
+                </ul> 
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
