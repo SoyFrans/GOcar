@@ -6,9 +6,7 @@
     }*/
 
     /*ABOUT*/
-    .about {
-        display: flex;
-    }
+
     .about-container {
         margin-left: 5%;
     }
@@ -22,11 +20,16 @@
     }
 
     .article-img {
-        width: 700px;
+        width: 100%;
         margin-right: 40px;
     }
 
     /*CARDS*/
+    .cards-container {
+        margin: 80px 0px 80px 8px;
+        gap: 0;
+    }
+
     .cards-title h1 {
         font-size: 50px;
     }
@@ -36,22 +39,170 @@
     .cards-rating {
         width: 100%;
     }
+
+    /*LOCATION-CONTACTS*/
+
+    .location-container {
+        width: 600px;
+    }
+
+    .contacts {
+        height: 550px;
+    }
 }
 
 @media (max-width: 1400px) {
+    /*WIDTH*/
+    .header, .hero, .footer {
+        width: 1415px;
+    }
+
+    /*ABOUT*/
+    .about-container {
+        width: 100%;
+        height: auto;
+        margin-left: 5%;
+    }
+
+    .article-img {
+        width: 100%;
+    }
+
     /*CARDS*/
 
     .cards-container {
+        margin-left: 20px;
+        gap: 40px;
         flex-wrap: wrap;
+        margin: 20px 120px;
     }
 
-    .cards-exp, .location-contacts {
-        margin-left: 70px;
+    .location-contacts {
+        justify-content: space-evenly;
     }
 
-    .location-container, .contacts {
-        width: 650px;
+    .location-container {
+        width: 550px;
     }
+
+    .contacts {
+        width: 550px;
+        height: 600px;
+    }
+
+    .contacts-list {
+        margin-top: 45px;
+    }
+}
+
+@media (max-width: 1350px) {
+    /*ABOUT*/
+    .article-img {
+        margin: 0;
+    }
+
+    /*CARDS*/
+    .function, .cards, .cards-exp {
+        margin-left: 30px;
+    }
+
+    .cards-rating {
+        margin-left: 5%;
+    }
+
+    /*LOCATION-CONTACTS*/
+    .location-contacts {
+        margin-left: 120px;
+    }
+}
+
+@media (max-width: 1250px) {
+    /*ABOUT*/
+    .about {
+        margin-left: 60px;
+    }
+
+    .about-container {
+        gap: 50px;
+    }
+
+    /*CARDS*/
+    .function, .cards, .cards-exp {
+        margin-left: 90px;
+    }
+
+    /*LOCATION-CONTACTS*/
+    .location-contacts {
+        margin-left: 130px;
+    }
+}
+
+@media (max-width: 1180px) {
+    /*ABOUT*/
+
+    .about-container {
+        flex-direction: column; 
+    }
+
+    .about-txt {
+        width: 100%;
+    }
+
+    .about-txt h3, .about-txt p {
+        font-size: 20px;
+    }
+
+    .about-txt h2 {
+        font-size: 45px;
+    }
+
+    .article-img {
+        width: 100%;
+        height: auto;
+    }
+    /*CARDS*/
+    .cards, .cards-exp, .location-contacts, .about {
+        margin-left: 200px;
+    }
+
+    .cards-exp-title h1 {
+        font-size: 60px;
+        text-align: justify;
+    }
+
+    .cards-container {
+        margin: 0;
+        margin: 60px 0;
+        gap: 30px;
+    }
+
+    .cards-rating {
+        gap: 17px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .function, .cards, .cards-exp, .location-contacts, .about {
+        width: 100%;
+    }
+
+    .function-title h1 {
+        font-size: 75px;
+        text-align: center;
+    }
+
+    .cards-exp-title h1 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .function, .cards, .cards-exp, .location-contacts, .about {
+        margin-left: 100px;
+        width: 150%;
+    }
+
 }
 
 @media (max-width: 576px) {

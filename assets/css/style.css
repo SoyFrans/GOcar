@@ -627,6 +627,7 @@ body {
 
 #toggle-map-uno:checked ~ .map, #toggle-map-dos:checked ~ .map, #toggle-map-tres:checked ~ .map {
     display: flex;
+    justify-content: center;
 }
 
 /*---CONTACTS---*/
@@ -652,6 +653,7 @@ body {
 
 .fa-leaf,.fa-location-arrow {
     font-size: 80px;
+    color: var(--blacktxt);
 }
 
 .contacts-title h1 {
