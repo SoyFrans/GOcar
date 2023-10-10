@@ -33,8 +33,7 @@ body {
     height: 80px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0px 50px;
+    justify-content: space-around;
     background-color: var(--bgyellow);
 }
 
@@ -106,13 +105,11 @@ body {
     display: flex;
     height: 450px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 
     background-color: var(--bgyellow);
     background-image: var(--yellowgrd);
     
-    border-bottom-right-radius: 900px;
-    border-bottom-left-radius: 900px;
 }
 
 .hero-container {
@@ -546,7 +543,7 @@ body {
 .location-title {
     display: flex;
     flex-direction: column;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 800;
     color: var(--blacktxt);
     margin-left: 20px;

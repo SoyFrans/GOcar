@@ -1,10 +1,4 @@
 @media (max-width: 1500px) {
-
-    /*HEADER-FOOTER*/
-    .header, .footer {
-        width: 100%;
-    }
-
     /*ABOUT*/
 
     .about-container {
@@ -52,10 +46,6 @@
 }
 
 @media (max-width: 1400px) {
-    /*WIDTH*/
-    /*.header, .hero, .footer {
-        width: 1415px;
-    }*/
 
     /*ABOUT*/
     .about-container {
@@ -96,6 +86,11 @@
 }
 
 @media (max-width: 1350px) {
+    /*HEADER-HERO-FOOTER*/
+    .header, .hero, .footer {
+        width: 1400px;
+    }
+
     /*ABOUT*/
     .article-img {
         margin: 0;
