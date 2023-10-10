@@ -2,7 +2,7 @@
 
     /*HEADER-FOOTER*/
     .header, .footer {
-        width: auto;
+        width: 100%;
     }
 
     /*ABOUT*/
