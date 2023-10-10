@@ -1,9 +1,9 @@
 @media (max-width: 1500px) {
 
-    /*HEADER*/
-    /*.header, .hero, .footer {
-        width: 1520px;
-    }*/
+    /*HEADER-FOOTER*/
+    .header, .footer {
+        width: auto;
+    }
 
     /*ABOUT*/
 
