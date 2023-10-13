@@ -145,27 +145,6 @@ html {
     animation: slide-text-left 1.5s ease 0s 1 normal forwards;
 }
 
-/*--FUNCTION--*/
-
-#toggle-function-uno:checked ~ .uno {
-    animation: slide-top 1.5s ease 0s 1 normal forwards;
-    display: flex;
-}
-
-#toggle-function-dos:checked ~ .dos {
-    animation: slide-top 1.5s ease 0s 1 normal forwards;
-    display: flex;
-}
-
-#toggle-function-tres:checked ~ .tres {
-    animation: slide-top 1.5s ease 0s 1 normal forwards;
-    display: flex;
-}
-
-.fa-solid:hover {
-    animation: botton-up 1s ease 0s 1 normal forwards;
-}
-
 /*--CARDS RATING--*/
 
 /*.cards-rating, .profile {

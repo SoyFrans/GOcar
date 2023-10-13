@@ -170,7 +170,6 @@ body {
     display: flex;
     flex-direction: column;
     z-index: 1;
-    /*width: 600px;*/
     background-color: white;
 }
 
@@ -350,16 +349,7 @@ body {
     width: 100px;
     height: 100px;
 }
-
-/*--toggle--*/
-
-#toggle-function-uno, #toggle-function-dos, #toggle-function-tres  {
-    display: none;
-}
    
-.list-ctn {
-    display: none;
-}
 
 /*---CARDS CAR---*/
 
@@ -544,7 +534,6 @@ body {
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
-    /*justify-content: space-around;*/
     gap: 20px
 }
 
@@ -567,7 +556,6 @@ body {
     background-color: #ffffff;
     box-shadow: 2px 4px 10px var(--blacktxt);
     padding-bottom: 5px;
-    /*width: 500px;*/
     height: auto;
 }
 
@@ -585,7 +573,6 @@ body {
 
 .point {
     font-size: 30px;
-    /*width: 600px;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -638,10 +625,7 @@ body {
 .contacts {
     background-color: #ffffff;
     box-shadow: 2px 4px 10px var(--blacktxt);
-    /**margin: 40px 0;*/
-    /*width: 600px;*/
     padding: 0 20px;
-    /*height: 395px;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -682,8 +666,10 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     font-size: 18px;
+    margin-bottom: 2%;
 }
 
 .wpp {
@@ -701,18 +687,18 @@ body {
 .footer {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     color: white;
     margin-top: 40px;
     background-color: var(--blacktxt);
-    width: 100%;
+    width: auto;
     height: 300px;
 }
 
 .footer-container {
-    display: flex;
-    justify-content: space-between; 
     width: 100%;
-    padding: 30px;
+    display: flex;
+    justify-content: space-evenly; 
 }
 
 .suscribe {
@@ -769,7 +755,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 80px;
 }
 
 .social-net {

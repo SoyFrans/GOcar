@@ -210,7 +210,6 @@
     }
 
     .principal-list, .btn {
-        /*font-size: 12px;*/
         display: none;
     }
 
@@ -253,7 +252,6 @@
         align-items: center;
         flex-direction: column;
         gap: 10px;
-        /*width: 100%;*/
     }
 
     .btn-query h4 {
@@ -334,10 +332,9 @@
     .suscribe {
         display: none;
     }
-
 }
 
-@media screen and (max-width:870px) /*and (max-width: 550px)*/ {
+@media screen and (max-width:870px) {
     /*BURGER-LIST*/
     .burger-list {
         width: auto;
@@ -489,6 +486,13 @@
     .cards-rating {
         width: 280px;
     } 
+
+    /*FOOTER*/
+    .footer-container {
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px
+    }
 }
 
 @media (max-width: 389px) {
