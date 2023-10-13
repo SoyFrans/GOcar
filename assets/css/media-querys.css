@@ -1,11 +1,7 @@
-@media (max-width: 1500px) {
+@media (max-width: 1570px) {
     /*ABOUT*/
 
-    .about-container {
-        margin-left: 5%;
-    }
-
-    .about-title {
+    /*.about-title {
         font-size: 32px;
     }
 
@@ -16,7 +12,7 @@
     .article-img {
         width: 100%;
         margin-right: 40px;
-    }
+    }*/
 
     /*CARDS*/
     .cards-container {
@@ -50,16 +46,16 @@
         width: auto;
     }
 
-    /*ABOUT*/
+    /*ABOUT
     .about-container {
-        width: 100%;
+        flex-direction: column;
+        width: 80%;
         height: auto;
-        margin-left: 5%;
     }
 
     .article-img {
-        width: 100%;
-    }
+        width: 80%;
+    } */
 
     /*CARDS*/
 
@@ -89,14 +85,14 @@
 }
 
 @media (max-width: 1350px) {
-    .function, .cards, .cards-exp, .location-contacts, .about {
+    /*.function, .cards, .cards-exp, .location-contacts, .about {
         margin-right: 140px;
-    }
+    }*/
 
-    /*ABOUT*/
+    /*ABOUT
     .article-img {
         margin: 0;
-    }
+    }*/
 
     /*CARDS*/
     .function, .cards, .cards-exp {
@@ -118,23 +114,19 @@
         width: 1250px;
     }
 
-    .function, .cards, .cards-exp, .location-contacts, .about {
+    /*.function, .cards, .cards-exp, .location-contacts, .about {
         margin-left: 60px;
        /* width: 100%;*/
-    }
+    
 
     /*HERO*/
     .hero-title h1 {
         font-size: 80px;
     }
 
-    /*ABOUT*/
+    /*ABOUT
     .about-container {
         flex-direction: column; 
-    }
-
-    .about {
-        margin-left: 60px;
     }
 
     .about-container {
@@ -143,7 +135,7 @@
 
     .about-txt {
         width: 100%;
-    }
+    }*/
 
     /*FUNCTION*/
     .btn-list-container i {
@@ -188,7 +180,7 @@
         font-size: 70px;
     }
     
-    /*ABOUT*/
+    /*ABOUT
 
     .about-txt {
         width: 100%;
@@ -205,7 +197,8 @@
     .article-img {
         width: 100%;
         height: auto;
-    }
+    }*/
+
     /*CARDS*/
 
     /*.cards, .cards-exp, .location-contacts, .about {
@@ -238,12 +231,25 @@
     /*HERO*/
 
     .hero {
-        width: 100%;
+        width: auto;
     }
 
     .hero-title h1 {
         font-size: 60px;
     }
+
+    /* ABOUT OFICIAL */
+
+    .about-container {
+        flex-direction: column;
+        margin: 0 10%;
+    }
+
+    .article-img {
+        width: 60vh;
+    }
+
+    /*--------------*/
 
     /*FUNCTION*/
     .function-title h1 {
@@ -271,28 +277,7 @@
     }
 }
 
-@media (max-width: 850px) {
-    .function, .cards, .cards-exp, .location-contacts, .about {
-        padding-left: 10vw;
-       /*width: 90%;*/
-    }
-
-   .header, .hero, .footer {
-        width: 120vw;
-   }
-
-   /*FUNCTION*/
-   .btn-list-container {
-    flex-direction: column;
-   }
-
-    /*LOCATION-CONTACTS*/
-   .contacts {
-     width: 550px;
-   }
-}
-
-@media (max-width: 768px) {
+@media screen and (max-width: 920px) /*768px*/ {
     /*BURGER*/
     .burger {
         z-index: 3;
@@ -356,9 +341,9 @@
         padding: 0 30px;
     }
 
-    .header, .hero, .footer {
-        width: 100vw;
-    }
+    /*.header, .hero, .footer {
+        width: 100%;
+    }*/
 
     .img-logo {
         width: auto;
@@ -408,7 +393,7 @@
         align-items: center;
         flex-direction: column;
         gap: 10px;
-        width: 100%;
+        /*width: 100%;*/
     }
 
     .btn-query h4 {
@@ -444,6 +429,33 @@
     .fa-apple, .fa-android {
         font-size: 30px;
     }
+
+    /*ABOUT
+    .about {
+        --margin: 40px 0;--
+        width: 100%;
+        margin: 20px 0 0 0;
+        --padding: 0 10px;--
+    }
+
+    .about-txt h3 {
+        font-size: 10px;
+    }
+
+    .about-txt h2 {
+        font-size: 20px;
+    }
+
+    .about-txt p {
+        font-size: 12px;
+    }*/
+
+    /*FUNCTION*/
+    
+    .btn-list-container {
+        flex-direction: column;
+    }
+
 
     /*CARDS*/
     .cards-exp-title h1 {
@@ -485,27 +497,80 @@
 
 }
 
-@media (max-width: 550px) {
+@media screen and (max-width:870px) /*and (max-width: 550px)*/ {
+    /*BURGER-LIST*/
+    .burger-list {
+        width: auto;
+    }
+
+    /*HEADER*/
+    /*.header, .hero, .footer {
+       width: 100vw;
+    }*/
+
+    .btn-query h4 {
+        font-size: 20px;
+    }
+
+    .item-app {
+        width: 120px;
+        font-size: 14px;
+    }
+
+    .fa-apple, .fa-android {
+        font-size: 25px;
+    }
+
+    /*HERO*/
+    .hero-title h1 {
+        font-size: 45px;
+    }
+    .hero-title h3 {
+        font-size: 15px;
+    }
+
     /*ABOUT*/
     .about {
-        margin: 40px 0;
-        width: auto;
-        padding: 0 10px;
+        padding: 0;
+    }
+
+    .about-container {
+        width: 85%;
+    }
+
+    .article-img {
+        width: 45vh;
     }
 
     .about-txt h3 {
+        font-size: 1rem;
+    }
+
+    .about-title {
+        font-size: 30px;
+    }
+
+    .about-txt p {
+        font-size: 14px;
+    }*/
+
+    /*.about-txt h3 {
         font-size: 10px;
     }
 
     .about-txt h2 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .about-txt p {
         font-size: 12px;
-    }
+    }*/
 
     /*FUNCTION*/
+    .function {
+        margin: 0;
+    }
+
     .function-title h1 {
         font-size: 45px;
     }
@@ -519,6 +584,10 @@
     }
 
     /*CARDS*/
+    .cards {
+        margin: 0;
+    }
+
     .cards-title h1 {
         font-size: 35px;
     }
@@ -532,6 +601,45 @@
         font-weight: 400;
     }
 
+    .cards-exp {
+        margin: 0;
+    }
+
+    .cards-exp-title h1 {
+        font-size: 45px;
+    }
+
+    .cards-exp-title h2 {
+        font-size: 25px;
+    }
+
+    /*LOCATION-CONTACTS*/
+    .location-container {
+        width: 50vh;
+    }
+
+    .contacts {
+        width: 50vh;
+    }
+
+    .contacts-title h1 {
+        font-size: 40px;
+    } 
+
+    .contacts-title h3 {
+        font-size: 20px;
+    }
+
+    .contacts-list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /*CARDS*/
+    .cards-rating {
+        width: 490px;
+    }
+
     /*FOOTER*/
     
     .img-footer {
@@ -539,6 +647,31 @@
         height: auto;
     }
     
+}
+
+@media (max-width: 389px) {
+    /*HERO*/
+    .hero-title {
+        margin-right: 10%;
+    }
+
+    .hero-title h1 {
+        font-size: 30px;
+    }
+
+    .hero-title h2 {
+        font-size: 25px;
+    }
+
+    .hero-title h3 {
+        font-size: 18px;
+    }
+
+    /*ABOUT*/
+    .article-img {
+        width: 35vh;
+    }
+
 }
 
 /*@media (max-width: 686px) {
@@ -595,6 +728,6 @@
     .article-container img {
         display: none;
     }
-    
+
 }*/
 
