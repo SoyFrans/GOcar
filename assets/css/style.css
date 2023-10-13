@@ -544,7 +544,7 @@ body {
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    /*justify-content: space-around;*/
     gap: 20px
 }
 
@@ -566,9 +566,8 @@ body {
     
     background-color: #ffffff;
     box-shadow: 2px 4px 10px var(--blacktxt);
-    border-radius: 10px;
     padding-bottom: 5px;
-    /*width: 700px;*/
+    /*width: 500px;*/
     height: auto;
 }
 
@@ -586,7 +585,7 @@ body {
 
 .point {
     font-size: 30px;
-    width: 600px;
+    /*width: 600px;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -606,7 +605,7 @@ body {
 .city-container {
     background-color: var(--bgyellow);
     border-radius: 20px;
-    width: 400px;
+    width: 210px;
     height: 50px;
 
     display: flex;
@@ -639,14 +638,18 @@ body {
 .contacts {
     background-color: #ffffff;
     box-shadow: 2px 4px 10px var(--blacktxt);
-    border-radius: 10px;
     /**margin: 40px 0;*/
-    width: 600px;
+    /*width: 600px;*/
     padding: 0 20px;
-    height: 395px;
+    /*height: 395px;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+/*--loc-cnt--*/
+.location-container, .contacts {
+    width: 100%;
 }
 
 .contacts-title {
