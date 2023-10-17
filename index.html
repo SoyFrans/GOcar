@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/css/media-querys.css">
     <link rel="stylesheet" href="assets/css/animaciones.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
     <title>GOcar</title>
 </head>
 <body>
@@ -19,18 +20,18 @@
                 <input type="checkbox" id="toggle-menu"/>
                 <ul class="burger-list">
                     <li class="item-list">
-                        <a href="#">¿Cómo funciona?</a>
+                        <a href="#function">¿Cómo funciona?</a>
                     </li>
                     <li class="item-list">
-                        <a href="#">Nuestros planes</a>
+                        <a href="#plans">Nuestros planes</a>
                     </li>
                     <li class="item-list">
-                        <a href="#">Contactos</a>
+                        <a href="#contacts">Contactos</a>
                     </li>
                     <div class="item-list burger-login">
                         <ul class="burger-login-list">
                             <li class="login-item"><a href="#">Iniciar Sesión</a></li>
-                            <li class="login-item"><a href="#">Registrarse</a></li>
+                            <li class="login-item"><a href="assets/log/register.html">Registrarse</a></li>
                         </ul>
                     </div>
                 </ul>
@@ -40,13 +41,13 @@
             <div class="principal">
                 <ul class="principal-list">
                     <li class="principal-item">
-                        <a href="#">Cómo funciona</a>
+                        <a href="#function">Cómo funciona</a>
                     </li>
                     <li class="principal-item">
-                        <a href="#">Nuestros planes</a>
+                        <a href="#plans">Nuestros planes</a>
                     </li>
                     <li class="principal-item">
-                        <a href="#">Contactos</a>
+                        <a href="#contacts">Contactos</a>
                     </li>
                 </ul> 
             </div>
@@ -54,7 +55,7 @@
         <div class="btn">
             <ul class="list">
                 <li class="list-login"><a href="#">Iniciar Sesión</a></li>
-                <h4>O registrate, <a id="login" href="#">haciendo click acá</a></h4>
+                <h4>O registrate, <a id="login" href="assets/log/register.html">haciendo click acá</a></h4>
             </ul>
         </div>
     </header>
@@ -96,7 +97,7 @@
             </div>
         </section>
        
-        <section class="function">
+        <section id="function" class="function">
             <div class="function-title">
                 <h1>¿Cómo Funciona?</h1>
                 <h2>Te explicamos en <span>3 simples pasos.</span></h2>
@@ -108,7 +109,7 @@
                         <h3 class="click-btn">1</h3>
                         <label for="toggle-function-uno"><i class="fa-solid fa-mobile-screen"></i></label>
                         <div class="list-ctn">
-                            <p>Inicia sesión y descarga la app en tu Android o Apple, coloca tu licencia de conducir y tu tarjeta de crédito o débito.</p>
+                            <p><a href="assets/log/register.html">Registrate acá</a>, coloca tus datos y descarga la app en tu Android o Apple. </p>
                         </div>
                     </li>
                     
@@ -131,7 +132,7 @@
             </article>
         </section>
  
-        <section class="cards">
+        <section id="plans" class="cards">
             <div class="cards-title">
                 <h1>Planes a medida para tu aventura sobre ruedas</h1>
                 <h2>¡Tus viajes, tus planes, tu elección!</h2>
@@ -389,7 +390,7 @@
                 </ul>
             </article>
      
-            <article class="contacts">
+            <article id="contacts" class="contacts">
                 <div class="contacts-title">
                     <i class="fa-solid fa-leaf"></i>
                     <h1>Contactanos</h1>
@@ -427,7 +428,7 @@
                 <h1>¡Suscribite!</h1>
                 <h2>¡Recibí un 15% de descuento con el código GO2023!</h2>
                 <form class="suscribe-button">
-                    <textarea type="email" for="email-button">Email</textarea>
+                    <input class="email-txt" type="email" for="email-button" placeholder="Email" name="email" required>
                     <input type="submit" id="email-button" value="Enviar"/>
                 </form>
             </li>
@@ -439,9 +440,9 @@
             </li>
             <li class="social-net">
                 <ul class="social-list">
-                    <li class="red-item"><i class="fa-brands fa-instagram"></i><a href="instagram.com" target="_blank">Instagram</a></li>
-                    <li class="red-item"><i class="fa-brands fa-square-facebook"></i><a href="facebook.com" target="_blank">Facebook</a></li>
-                    <li class="red-item"><i class="fa-brands fa-square-x-twitter"></i><a href="twitter.com" target="_blank">Twitter</a></li>
+                    <li class="red-item"><i class="fa-brands fa-instagram"></i><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                    <li class="red-item"><i class="fa-brands fa-square-facebook"></i><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                    <li class="red-item"><i class="fa-brands fa-square-x-twitter"></i><a href="https://twitter.com/" target="_blank">Twitter</a></li>
                 </ul> 
             </li>
         </ul>

@@ -1,0 +1,45 @@
+@media (max-width: 550px) {
+    .login {
+        margin: 10vh 0;
+    }
+
+    .login-list {
+        border-radius: 0;
+        width: 100%;
+    }
+
+    .footer {
+        height: 400px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 100px;
+    }
+}
+
+@media (max-width: 425px) {
+    .btn-user {
+        width: 100px;
+    }
+
+    .btn-profile {
+        font-size: 14px;
+    }
+
+    .login-list h1 {
+        font-size: 40px;
+    }
+
+    .login-list h3 {
+        font-size: 25px;
+    }
+
+    .item-btn {
+        width: 130px;
+    }
+
+    .login-list label, .checkbox-form {
+        font-size: 14px;
+    }
+}

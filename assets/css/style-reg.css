@@ -1,0 +1,224 @@
+:root {
+    --bgyellow: #ffbf46;
+    --blacktxt: rgb(38, 38, 66);
+    --yellowgrd: linear-gradient(180deg, #ffbf46 0%, #b37200 100%);
+    --bgblue: #0c56b3;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*HEADER*/
+.img-logo {
+    width: 150px;
+    height: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+}
+
+.btn-user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 40px;
+    font-weight: 500;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+
+.btn-profile a {
+    color: var(--blacktxt);
+}
+
+/*LOGIN*/
+
+.body {
+    background: var(--yellowgrd);
+    background-repeat: no-repeat;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 21vh 0;
+    gap: 20px;
+}
+
+.login-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 2px 2px 10px var(--blacktxt);
+
+    width: 500px;
+    height: 500px;
+}
+
+.list a, .btn-profile a {
+    color: var(--blacktxt);
+}
+
+.title-login, .title-license-form, .title-qr {
+    text-align: center;
+    color: var(--blacktxt);
+    margin-bottom: 10px;
+}
+
+.fa-car-rear {
+   font-size: 50px;
+}
+
+.login-list h1, .title-license-form h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.login-list h3, .title-license-form h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.btn-google-facebook {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.item-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: var(--blacktxt);
+    border-radius: 40px;
+    width: 150px;
+    padding: 10px;
+}
+
+.item-btn a, .fa-google, .fa-facebook-f {
+    color: #fff;
+}
+
+.login-new-user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    margin-top: 20px;
+}
+
+.user {
+    width: 250px;
+    height: 30px;
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+}
+
+.login-new-user textarea {
+    resize: none;
+}
+
+.btn-new-user {
+    width: 120px;
+    height: 35px;
+    background-color: var(--blacktxt);
+    color: white;
+    font-size: 15px;
+    border: 1px solid var(--blacktxt);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-license {
+    display: flex;
+    justify-content: center;
+}
+
+.license-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.checkbox-form {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.img-qr {
+    width: 250px;
+    height: auto;
+}
+
+/*FOOTER*/
+
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: var(--blacktxt);
+    height: 200px;
+    width: 100%;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+    width: 100%;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-footer {
+    width: 250px;
+    height: auto;
+}
+
+.social-net {
+    display: flex;
+}
+
+.social-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.red-item {
+    display: flex;
+    gap: 10px;
+}
+
+.red-item a, .fa-brands {
+    color: white;
+    font-size: 24px;
+}

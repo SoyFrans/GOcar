@@ -125,9 +125,15 @@ html {
     animation: botton-up 1s ease 0s 1 normal forwards; 
 }
 
-.list-login:hover {
+.item-list a:hover {
+    color: white;
+}
+
+.list-login:hover, .login-item:hover {
     background-color: #b37100ad;
 }
+
+
 
 #login:hover {
     color: white;

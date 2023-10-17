@@ -324,6 +324,7 @@ body {
     display: flex;
     justify-content: flex-end;
     z-index: 3;
+    cursor: pointer;
 }
 
 .qr-container {
@@ -725,7 +726,7 @@ body {
     justify-content: center;
 }
 
-.suscribe-button textarea {
+.email-txt {
     height: 30px;
     width: 300px;
     border: 2px solid white;
