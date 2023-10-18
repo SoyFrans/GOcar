@@ -23,6 +23,29 @@
         width: auto;
     }
 
+    /*HERO*/
+
+    .hero-title h1 {
+        font-size: 85px;
+    }
+
+    .hero-title h2 {
+        font-size: 75px;
+    }
+
+    /*ABOUT*/
+    .article-img {
+        width: 50%;
+    }
+
+    .about-title {
+        font-size: 25px;
+    }
+
+    .about-title p {
+        font-size: 15px;
+    }
+
     /*CARDS*/
 
     .cards-container {
@@ -44,7 +67,17 @@
 
     /*HERO*/
     .hero-title h1 {
-        font-size: 80px;
+        font-size: 75px;
+    }
+
+    /*ABOUT*/
+
+    .about-title {
+        font-size: 20px;
+    }
+
+    .about-title p {
+        font-size: 12px;
     }
 
     /*FUNCTION*/
@@ -76,8 +109,13 @@
 
     /*HERO*/
     .hero-title h1 {
-        font-size: 70px;
+        font-size: 60px;
     }
+
+    .hero-title h2 {
+        font-size: 55px;
+    }
+
 
     /*CARDS*/
 
@@ -100,7 +138,7 @@
     }
 
     .hero-title h1 {
-        font-size: 60px;
+        font-size: 55px;
     }
 
     /*ABOUT*/
@@ -140,7 +178,7 @@
     }
 }
 
-@media screen and (max-width: 920px) /*768px*/ {
+@media screen and (max-width: 940px) {
     /*BURGER*/
     .burger {
         z-index: 3;
@@ -487,12 +525,16 @@
         width: 280px;
     } 
 
+    .rating-txt p {
+        font-size: 14px;
+    }
+
     /*FOOTER*/
     .footer-container {
         flex-direction: column;
         justify-content: center;
         gap: 20px
-    }
+    } 
 }
 
 @media (max-width: 389px) {
@@ -545,7 +587,7 @@
     .city-point {
         width: 120px;
     }
-    
+
 }
 
 

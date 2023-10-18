@@ -54,7 +54,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
 }
 
 .list-login {
@@ -66,17 +65,14 @@ body {
     font-weight: 500;
     border-radius: 40px;
     border: 1px solid black;
-}
-
-#login {
-    font-weight: 600;   
+    padding: 0 5px;
 }
 
 .list {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 20px;
 }
 
 .list h4 {
@@ -255,6 +251,7 @@ body {
 .btn-list {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 20px;
 }
 
@@ -318,12 +315,8 @@ body {
 /*--QR--*/
 
 .qr {
-    position: fixed;
-    top: 80px;
+    position: absolute;
     margin: 20px;
-    display: flex;
-    justify-content: flex-end;
-    z-index: 3;
     cursor: pointer;
 }
 
@@ -544,7 +537,6 @@ body {
     font-size: 40px;
     font-weight: 800;
     color: var(--blacktxt);
-    margin-left: 20px;
     text-align: center;
 }
 
