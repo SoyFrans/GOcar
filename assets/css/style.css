@@ -316,6 +316,7 @@ body {
 
 .qr {
     position: absolute;
+    z-index: 3;
     margin: 20px;
     cursor: pointer;
 }

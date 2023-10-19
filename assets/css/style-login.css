@@ -16,6 +16,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.body {
+    background: var(--yellowgrd);
+    background-repeat: no-repeat;
+}
+
 /*HEADER*/
 .img-logo {
     width: 150px;
@@ -46,58 +51,41 @@
 
 /*LOGIN*/
 
-.body {
-    background: var(--yellowgrd);
-    background-repeat: no-repeat;
-}
-
 .login {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     align-items: center;
-    margin: 21vh 0;
-    gap: 20px;
+    flex-direction: column;
 }
 
-.login-list {
+.login-container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
-   
-
-    background-color: #fff;
-    border-radius: 20px;
-    padding: 15px;
-    box-shadow: 2px 2px 10px var(--blacktxt);
 
     width: 500px;
-    height: 500px;
-}
-
-.list a, .btn-profile a {
+    background-color: white;
+    border-radius: 20px;
     color: var(--blacktxt);
+    box-shadow: 2px 2px 10px var(--blacktxt);
+    margin: 21vh 0;
 }
 
-.title-login, .title-license-form, .title-qr {
-    text-align: center;
-    color: var(--blacktxt);
-    margin-bottom: 10px;
+.login-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.fa-car-rear {
-   font-size: 50px;
+.login-title h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--bgblue);
 }
 
-.login-list h1, .title-license-form h1 {
-    font-size: 50px;
-    font-weight: 600;
-}
-
-.login-list h3, .title-license-form h3 {
-    font-size: 25px;
-    font-weight: 400;
+.login-form {
+    display: flex;
+    flex-direction: column;
 }
 
 .btn-google-facebook {
@@ -111,64 +99,66 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    background-color: var(--blacktxt);
-    border-radius: 40px;
-    width: 150px;
+   
+    width: 200px;
     padding: 10px;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.fa-google, .fa-facebook-f {
+    font-size: 18px;
 }
 
 .item-btn a, .fa-google, .fa-facebook-f {
-    color: #fff;
+    color: var(--blacktxt);
 }
 
-.login-new-user {
+.login-forgot a {
+    color: var(--bgblue);
+}
+
+.login-o {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.login-form-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
+}
 
-    margin-top: 20px;
+.email, .password {
+    display: flex;
+    flex-direction: column;
 }
 
 .user {
     width: 250px;
-    height: 30px;
-    border: 2px solid #dddddd;
+    height: 25px;
+    border: 2px solid rgb(209, 203, 203);
     border-radius: 10px;
 }
 
-.btn-new-user {
+.btn-old-user, .item-btn {
+    border: 2px solid var(--blacktxt);
+    border-radius: 40px;
+}
+
+.btn-old-user {
     width: 120px;
-    height: 35px;
-    background-color: var(--blacktxt);
-    color: white;
-    font-size: 15px;
-    border: 1px solid var(--blacktxt);
-    border-radius: 10px;
+    height: 40px;
+    margin: 10px 0;
+    font-weight: 600;
     cursor: pointer;
 }
 
-.btn-license {
-    display: flex;
-    justify-content: center;
-}
-
-.license-form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.checkbox-form {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-
-.img-qr {
-    width: 250px;
-    height: auto;
+.login-forgot {
+    margin-bottom: 10px;
 }
 
 /*FOOTER*/
@@ -217,7 +207,8 @@
     gap: 10px;
 }
 
-.red-item a, .fa-brands {
+.red-item a, .fa-instagram, .fa-square-facebook, .fa-square-x-twitter {
     color: white;
     font-size: 24px;
 }
+
