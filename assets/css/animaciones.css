@@ -15,20 +15,6 @@ html {
     }
 }
 
-@keyframes scale-img {
-	0% {
-		transform: scale(0);
-	}
-
-	100% {
-		transform: scale(1);
-	}
-}
-
-.article-container img {
-    animation: scale-img 2s ease 0s 1 normal forwards;
-}
-
 @keyframes slide-text /*to-right*/ {
 	0% {
 		opacity: 0;
@@ -108,6 +94,56 @@ html {
     } 
 }
 
+@keyframes entrance {
+	0% {
+		opacity: 0;
+		transform: scale(0.6);
+	}
+
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+@keyframes slide-down {
+	0% {
+		opacity: 0;
+		transform: rotateX(-100deg);
+		transform-origin: top;
+	}
+
+	100% {
+		opacity: 1;
+		transform: rotateX(0deg);
+		transform-origin: top;
+	}
+}
+
+@keyframes desplazar-linea {
+	0% {
+	  width: 0;
+	}
+	50% {
+	  width: 100%;
+	}
+	100% {
+	  width: 0;
+	}
+}
+
+@keyframes slide-bottom {
+	0% {
+		opacity: 0;
+		transform: translateY(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
 /*--QR--*/
 
 .qr {
@@ -119,29 +155,46 @@ html {
 }
 
 /*--HEADER--*/
+.principal-item {
+	position: relative;
+	display: inline-block;
+}
 
+.principal-item .line-animation {
+	width: 0;
+	height: 2px;
+	background-color: white; 
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: none;
+}
+
+
+.principal-item:hover .line-animation {
+	display: block; 
+	animation: desplazar-linea 2s forwards; 
+}
 
 .img-logo:hover {
-    animation: botton-up 1s ease 0s 1 normal forwards; 
+	animation: botton-up 1s ease 0s 1 normal forwards; 
 }
 
-.item-list a:hover {
+.item-list a:hover, .principal-item a:hover, .list-ctn a:hover, .btn-user a:hover, #login:hover {
     color: white;
 }
 
-.list-login:hover, .login-item:hover {
+.principal-item a:hover, .list-ctn a:hover, .btn-user a:hover, .login-forgot a:hover, .btn-text:hover {
+	text-shadow: 2px 2px 10px var(--blacktxt);
+}
+
+.list-login:hover, .login-item:hover, .btn-user:hover {
     background-color: #b37100ad;
-}
-
-
-
-#login:hover {
-    color: white;
 }
 
 /*--HERO--*/
 
-.hero-title h1, .hero-title h2 {
+.hero-title {
     animation: slide-text 2s ease 0s 1 normal forwards;
 }
 
@@ -150,3 +203,40 @@ html {
 .about-txt {
     animation: slide-text-left 1.5s ease 0s 1 normal forwards;
 }
+
+/*--LOCATION-CONTACTS--*/
+#toggle-map-uno:checked ~ .map, #toggle-map-dos:checked ~ .map, #toggle-map-tres:checked ~ .map {
+    animation: slide-down 0.5s ease 0s 1 normal backwards;
+}
+
+/*LOGIN*/
+.item-btn:hover, .btn-old-user:hover {
+	background-color: rgba(48, 48, 48, 0.292);
+	box-shadow: 2px 2px 4px var(--blacktxt);
+}
+
+.login-container {
+	animation: slide-bottom 2s ease 0.5 normal forwards;
+}
+
+/*REGISTER*/
+.btn-text:hover {
+	font-weight: 600;
+}
+
+.btn-new-user:hover {
+	box-shadow: 2px 2px 10px var(--blacktxt);
+}
+
+.login-list {
+	animation: slide-text-left 1.5s ease 0s 1 normal forwards;;
+}
+
+/*media*/
+
+@media (max-width: 940px) {
+	#toggle-menu:checked ~ .burger-list {
+        animation: slide-down 1s ease 1 normal backwards;
+    }
+}
+

@@ -1,4 +1,8 @@
-@media (max-width: 1570px) {
+@media (max-width: 1650px) {
+    /*ABOUT*/
+    .about-title {
+        font-size: 40px;
+    }
 
     /*CARDS*/
     .cards-container {
@@ -18,7 +22,7 @@
 
 }
 
-@media (max-width: 1390px) {
+@media (max-width: 1410px) {
     .header .hero .footer {
         width: auto;
     }
@@ -73,11 +77,20 @@
     /*ABOUT*/
 
     .about-title {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .about-title p {
-        font-size: 12px;
+        font-size: 15px;
+    }
+    
+    .about-container {
+        flex-direction: column;
+        margin: 0 10%;
+    }
+
+    .article-img {
+        width: 120vh;
     }
 
     /*FUNCTION*/
@@ -116,6 +129,10 @@
         font-size: 55px;
     }
 
+    /*ABOUT*/
+    .article-img {
+        width: 100vh;
+    }
 
     /*CARDS*/
 
@@ -130,9 +147,8 @@
 
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1050px) {
     /*HERO*/
-
     .hero {
         width: auto;
     }
@@ -143,15 +159,10 @@
 
     /*ABOUT*/
 
-    .about-container {
-        flex-direction: column;
-        margin: 0 10%;
-    }
 
-    .article-img {
+   /* .article-img {
         width: 60vh;
-    }
-
+    }*/
 
     /*FUNCTION*/
     .function-title h1 {
@@ -332,6 +343,10 @@
         flex-direction: column;
     }
 
+    .btn-list-container i {
+        width: auto;
+    }
+
 
     /*CARDS*/
     .cards-exp-title h1 {
@@ -372,7 +387,7 @@
     }
 }
 
-@media screen and (max-width:870px) {
+@media screen and (max-width:888px) {
     /*BURGER-LIST*/
     .burger-list {
         width: auto;
@@ -409,7 +424,7 @@
     }
 
     .article-img {
-        width: 45vh;
+        width: 65vh;
     }
 
     .about-txt h3 {
@@ -504,6 +519,11 @@
 }
 
 @media (max-width: 620px) {
+    /*ABOUT*/
+    .article-img {
+        width: 40vh;
+    }
+
     /*CARDS*/
     .cards-exp-title h1 {
         font-size: 38px;

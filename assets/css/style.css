@@ -188,12 +188,12 @@ body {
     -webkit-background-clip: text;
     color: transparent;
     display: inline-block;
-    font-size: 40px;
+    font-size: 45px;
     margin-bottom: 15px;
 }
 
 .about-txt p {
-    font-size: 18px;
+    font-size: 20px;
     text-align: justify;
 }
 
@@ -255,6 +255,7 @@ body {
     gap: 20px;
 }
 
+
 .btn-list-container {
     display: flex;
     align-items: center;
@@ -267,8 +268,8 @@ body {
     background-image: var(--yellowgrd);
     -webkit-background-clip: text;
     color: transparent;
-    display: inline-block;
-    font-size: 200px;
+    font-size: 170px;
+    width: 200px;
 }
 
 .btn-list li {
@@ -603,6 +604,7 @@ body {
 
 .fa-angle-down {
     display: block;
+    cursor: pointer;
 }
 
 .map {
@@ -640,6 +642,10 @@ body {
 .fa-leaf,.fa-location-arrow {
     font-size: 80px;
     color: var(--blacktxt);
+}
+
+.fa-leaf {
+    margin-top: 1%;
 }
 
 .contacts-title h1 {
