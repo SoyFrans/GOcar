@@ -157,13 +157,6 @@
         font-size: 55px;
     }
 
-    /*ABOUT*/
-
-
-   /* .article-img {
-        width: 60vh;
-    }*/
-
     /*FUNCTION*/
     .function-title h1 {
         font-size: 75px;
@@ -215,6 +208,10 @@
 
     #toggle-menu:checked ~ .burger-list {
         display: flex;
+    }
+
+    .fa-bars {
+        cursor: pointer;
     }
 
     .item-list {
@@ -604,6 +601,10 @@
     }
 
     /*LOCATION-CONTACTS*/
+    .city-container {
+        width: 300px;
+    }
+
     .city-point {
         width: 120px;
     }

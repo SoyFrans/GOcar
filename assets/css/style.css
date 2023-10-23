@@ -236,34 +236,19 @@ body {
     font-weight: 600;
 }
 
-.function-container {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    flex-direction: column;
-}
-
-.btn-container {
-    display: flex;
-    align-content: center;
-}
-
 .btn-list {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+}
+
+.btn-list-container {
+    display: flex;   
     gap: 20px;
 }
 
-
-.btn-list-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-
 .btn-list-container i {
+    display: flex;
+    justify-content: center;
     background-color: #ff8538;
     background-image: var(--yellowgrd);
     -webkit-background-clip: text;
@@ -346,7 +331,6 @@ body {
     height: 100px;
 }
    
-
 /*---CARDS CAR---*/
 
 .cards-title {
@@ -587,7 +571,7 @@ body {
 .city-container {
     background-color: var(--bgyellow);
     border-radius: 20px;
-    width: 210px;
+    width: 400px;
     height: 50px;
 
     display: flex;
@@ -614,6 +598,11 @@ body {
 #toggle-map-uno:checked ~ .map, #toggle-map-dos:checked ~ .map, #toggle-map-tres:checked ~ .map {
     display: flex;
     justify-content: center;
+}
+
+#toggle-map-uno:checked ~ .city-container, #toggle-map-dos:checked ~ .city-container, #toggle-map-tres:checked ~ .city-container {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 /*---CONTACTS---*/
@@ -770,14 +759,10 @@ body {
     font-size: 20px;
 }
 
-.red-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
 .social-list a {
     color: white;
+    display: flex;
+    gap: 10px;
 }
 
 .fa-brands {
