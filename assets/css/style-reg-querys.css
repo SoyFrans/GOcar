@@ -24,7 +24,11 @@
     }
 
     .btn-profile {
-        font-size: 14px;
+        font-size: 12px;
+    }
+
+    .login-list, .footer {
+        width: 100%;
     }
 
     .login-list h1 {
