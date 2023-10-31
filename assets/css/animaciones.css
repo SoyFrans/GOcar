@@ -209,7 +209,7 @@ html {
 
 /*--LOCATION-CONTACTS--*/
 #toggle-map-uno:checked ~ .map, #toggle-map-dos:checked ~ .map, #toggle-map-tres:checked ~ .map {
-    animation: slide-down 0.5s ease 0s 1 normal backwards;
+    animation: slide-down 0.8s ease 0s 1 normal backwards;
 }
 
 /*LOGIN*/
