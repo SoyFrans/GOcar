@@ -147,7 +147,7 @@
 
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1070px) {
     /*HERO*/
     .hero {
         width: auto;
@@ -168,13 +168,13 @@
     }
 
     .click-btn {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
     } 
 
     .list-ctn {
         font-size: 20px;
-        width: 500px;
+        width: 470px;
     }
     
     .cards-exp-title h1 {
@@ -334,6 +334,11 @@
         font-size: 30px;
     }
 
+    /*ABOUT*/
+    .article-img {
+        width: 90vh;
+    }
+
     /*FUNCTION*/
     
     .btn-list-container {
@@ -421,7 +426,7 @@
     }
 
     .article-img {
-        width: 65vh;
+        width: 63vh;
     }
 
     .about-txt h3 {
