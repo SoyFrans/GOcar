@@ -3,8 +3,11 @@
 :root {
     --bgyellow: #ffbf46;
     --blacktxt: rgb(38, 38, 66);
+    --black: #000;
     --yellowgrd: linear-gradient(180deg, #ffbf46 0%, #b37200 100%);
     --bgblue: #0c56b3;
+    --white: #fff;
+    --orange: #ff8538;
 }
 
 * {
@@ -42,7 +45,7 @@
     height: 40px;
     font-weight: 500;
     border-radius: 40px;
-    border: 1px solid black;
+    border: 1px solid var(--black);
 }
 
 .btn-profile a {
@@ -62,13 +65,13 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-
+    background-color: var(--white);
     width: 500px;
-    background-color: white;
+    
     border-radius: 20px;
     color: var(--blacktxt);
     box-shadow: 2px 2px 10px var(--blacktxt);
-    margin: 25vh 0;
+    margin: 15vh 0 35vh 0;
 }
 
 .login-title {
@@ -169,7 +172,7 @@
     background-color: var(--blacktxt);
     height: 200px;
     width: 100%;
-    color: white;
+    color: var(--white);
 }
 
 .footer-container {
@@ -208,7 +211,7 @@
 }
 
 .red-item a, .fa-instagram, .fa-square-facebook, .fa-square-x-twitter {
-    color: white;
+    color: var(--white);
     font-size: 24px;
 }
 
