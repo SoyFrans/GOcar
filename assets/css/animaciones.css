@@ -25,18 +25,6 @@ html {
 	}
 }
 
-@keyframes slide-text-left {
-	0% {
-		opacity: 0;
-		transform: translateX(250px);
-	}
-
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
-}
-
 @keyframes slide-top {
 	0% {
 		opacity: 0;
@@ -164,15 +152,11 @@ html {
 }
 
 .hero-title {
-    animation: slide-text 2s ease 0s 1 normal;
+    animation: slide-top 2s ease 0s 1 normal forwards;
 }
 
 .item-app:hover {
 	box-shadow: 2px 2px 10px white;
-}
-
-.about-txt {
-    animation: slide-text-left 1.5s ease 0s 1 normal;
 }
 
 #toggle-map-uno:checked ~ .map, #toggle-map-dos:checked ~ .map, #toggle-map-tres:checked ~ .map {
