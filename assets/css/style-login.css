@@ -24,7 +24,6 @@
     background-repeat: no-repeat;
 }
 
-/*HEADER*/
 .img-logo {
     width: 150px;
     height: 50px;
@@ -52,7 +51,6 @@
     color: var(--blacktxt);
 }
 
-/*LOGIN*/
 
 .login {
     display: flex;
@@ -164,8 +162,6 @@
     margin-bottom: 10px;
 }
 
-/*FOOTER*/
-
 .footer {
     display: flex;
     align-items: center;
@@ -215,3 +211,28 @@
     font-size: 24px;
 }
 
+@media (max-width: 520px) {
+    .login-container {
+        border-radius: 0;
+        width: 100%;
+        margin: 15vh;
+    }
+    
+    .btn-google-facebook {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .login-forgot h4 {
+        font-size: 14px;
+    }
+
+    .footer {
+        height: 400px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+}

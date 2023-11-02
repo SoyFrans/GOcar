@@ -24,7 +24,6 @@
     background-repeat: no-repeat;
 }
 
-/*HEADER*/
 .img-logo {
     width: 150px;
     height: 50px;
@@ -51,8 +50,6 @@
 .btn-profile a {
     color: var(--blacktxt);
 }
-
-/*LOGIN*/
 
 .login {
     display: flex;
@@ -172,8 +169,6 @@
     width: 250px;
     height: auto;
 }
-
-/*FOOTER*/
 
 .footer {
     display: flex;

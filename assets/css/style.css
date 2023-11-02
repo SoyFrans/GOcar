@@ -23,8 +23,6 @@ body {
     color: var(--black);
 }
 
-/*---HEADER---*/
-
 .img-logo {
     width: 150px;
     height: 50px;
@@ -97,7 +95,6 @@ body {
     display: none;
 }
 
-/*---HERO---*/
 .btn-query {
     display: none;
 }
@@ -147,8 +144,6 @@ body {
     font-size: 25px;
     font-weight: 600;
 }
-
-/*---ABOUT---*/
 
 .about {
     display: flex;
@@ -202,8 +197,6 @@ body {
 .about-container span {
     font-weight: 600;
 }
-
-/*---FUNCTION---*/
 
 .function {
     display: flex;
@@ -300,8 +293,6 @@ body {
     color: var(--blacktxt);
 }
 
-/*--QR--*/
-
 .qr {
     position: absolute;
     z-index: 3;
@@ -332,8 +323,6 @@ body {
     width: 100px;
     height: 100px;
 }
-   
-/*---CARDS CAR---*/
 
 .cards-title {
     margin-top: 30px;
@@ -386,7 +375,6 @@ body {
 .middle {
     background-color: var(--white);
     background-image: linear-gradient(160deg, var(--white) 0%, #a8b5ac 100%);
-    
 }
 
 .expensive {
@@ -419,8 +407,6 @@ body {
    padding: 20px;
    border-bottom: 1px solid var(--blacktxt);
 }
-
-/*--- CARDS EXPERIENCE --*/
 
 .cards-exp {
     display: flex;
@@ -510,8 +496,6 @@ body {
     text-align:left;
 }
 
-/*--PUNTOS GO--*/
-
 .location-contacts {
     margin-top: 20px;
     display: flex;
@@ -582,8 +566,6 @@ body {
     padding-left: 10px;
 }
 
-/*--MAP MENU--*/
-
 #toggle-map-uno, #toggle-map-dos, #toggle-map-tres {
     display: none;
 }
@@ -607,8 +589,6 @@ body {
     border-bottom-right-radius: 0;
 }
 
-/*---CONTACTS---*/
-
 .contacts {
     background-color: var(--white);
     box-shadow: 2px 4px 10px var(--blacktxt);
@@ -618,7 +598,6 @@ body {
     justify-content: center;
 }
 
-/*--loc-cnt--*/
 .location-container, .contacts {
     width: 100%;
 }
@@ -672,8 +651,6 @@ body {
     display: flex;
     gap: 10px;
 }
-
-/*---FOOTER---*/
 
 .footer {
     display: flex;

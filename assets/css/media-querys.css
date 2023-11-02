@@ -1,10 +1,8 @@
 @media (max-width: 1650px) {
-    /*ABOUT*/
     .about-title {
         font-size: 40px;
     }
 
-    /*CARDS*/
     .cards-container {
         margin: 80px 0px 80px 8px;
         gap: 0;
@@ -13,8 +11,6 @@
     .cards-title h1 {
         font-size: 50px;
     }
-    
-    /*CARDS-RATING*/
 
     .cards-rating {
         width: 80%;
@@ -27,8 +23,6 @@
         width: auto;
     }
 
-    /*HERO*/
-
     .hero-title h1 {
         font-size: 85px;
     }
@@ -37,7 +31,6 @@
         font-size: 75px;
     }
 
-    /*ABOUT*/
     .article-img {
         width: 50%;
     }
@@ -49,8 +42,6 @@
     .about-title p {
         font-size: 15px;
     }
-
-    /*CARDS*/
 
     .cards-container {
         margin-left: 20px;
@@ -69,12 +60,9 @@
         width: 1250px;
     }
 
-    /*HERO*/
     .hero-title h1 {
         font-size: 75px;
     }
-
-    /*ABOUT*/
 
     .about-title {
         font-size: 30px;
@@ -93,7 +81,6 @@
         width: 120vh;
     }
 
-    /*FUNCTION*/
     .btn-list-container i {
         font-size: 160px;
     }
@@ -103,7 +90,6 @@
         height: 70px;
     } 
 
-    /*CARDS*/
     .cards-exp-title h1 {
         font-size: 60px;
     }
@@ -111,7 +97,6 @@
 
 @media (max-width: 1180px) {
 
-    /*HEADER*/
     .principal-list {
         gap: 40px;
     }
@@ -120,7 +105,6 @@
         font-size: 15px;
     }
 
-    /*HERO*/
     .hero-title h1 {
         font-size: 60px;
     }
@@ -129,12 +113,9 @@
         font-size: 55px;
     }
 
-    /*ABOUT*/
     .article-img {
         width: 100vh;
     }
-
-    /*CARDS*/
 
     .cards-exp-title h1 {
         font-size: 60px;
@@ -148,7 +129,6 @@
 }
 
 @media (max-width: 1070px) {
-    /*HERO*/
     .hero {
         width: auto;
     }
@@ -157,7 +137,6 @@
         font-size: 55px;
     }
 
-    /*FUNCTION*/
     .function-title h1 {
         font-size: 75px;
         text-align: center;
@@ -184,7 +163,6 @@
 }
 
 @media screen and (max-width: 940px) {
-    /*BURGER*/
     .burger {
         z-index: 3;
         display: flex;
@@ -244,8 +222,6 @@
         border-radius: 20px;
     }
 
-    /*HEADER*/
-
     .header {
         justify-content: space-between;
         padding: 0 30px;
@@ -268,8 +244,6 @@
     .qr {
         display: none;
     }
-
-    /*HERO*/
 
     .hero {
         flex-direction: column;
@@ -335,12 +309,9 @@
         font-size: 30px;
     }
 
-    /*ABOUT*/
     .article-img {
         width: 90vh;
     }
-
-    /*FUNCTION*/
     
     .btn-list-container {
         flex-direction: column;
@@ -350,8 +321,6 @@
         width: auto;
     }
 
-
-    /*CARDS*/
     .cards-exp-title h1 {
         font-size: 55px;
     }
@@ -365,10 +334,8 @@
     .profile-container {
         justify-content: flex-start;
         flex-wrap: nowrap;
-       
         overflow: auto; 
         padding: 12px;
-
         background-color: rgb(222, 222, 222);
         border-radius: 20px;
         box-shadow: -58px -88px 240px -13px rgba(0,0,0,0.44) inset;
@@ -384,14 +351,13 @@
         text-align: justify;
     }
 
-    /*FOOTER*/
     .suscribe {
         display: none;
     }
 }
 
 @media screen and (max-width:888px) {
-    /*BURGER-LIST*/
+
     .burger-list {
         width: auto;
     }
@@ -409,15 +375,14 @@
         font-size: 25px;
     }
 
-    /*HERO*/
     .hero-title h1 {
         font-size: 45px;
     }
+
     .hero-title h3 {
         font-size: 15px;
     }
 
-    /*ABOUT*/
     .about {
         padding: 0;
     }
@@ -442,7 +407,6 @@
         font-size: 14px;
     }
 
-    /*FUNCTION*/
     .function {
         margin: 0;
     }
@@ -459,7 +423,6 @@
         width: 50vw;
     }
 
-    /*CARDS*/
     .cards {
         margin: 0;
     }
@@ -507,12 +470,9 @@
         align-items: flex-start;
     }
 
-    /*CARDS*/
     .cards-rating {
         width: 490px;
     }
-
-    /*FOOTER*/
     
     .img-footer {
         width: 150px;
@@ -522,12 +482,10 @@
 }
 
 @media (max-width: 620px) {
-    /*ABOUT*/
     .article-img {
         width: 40vh;
     }
 
-    /*CARDS*/
     .cards-exp-title h1 {
         font-size: 38px;
     }
@@ -535,11 +493,9 @@
     .cards-exp-title h3 {
         font-size: 20px;
     }
-
 }
 
 @media (max-width: 510px) {
-    /*CARDS-RATING*/
     .cards-exp-title h1 {
         font-size: 30px;
     }
@@ -552,7 +508,6 @@
         font-size: 14px;
     }
 
-    /*FOOTER*/
     .footer-container {
         flex-direction: column;
         justify-content: center;
@@ -561,7 +516,6 @@
 }
 
 @media (max-width: 396px) {
-    /*HERO*/
     .hero-title {
         margin-right: 10%;
     }
@@ -578,12 +532,10 @@
         font-size: 18px;
     }
 
-    /*ABOUT*/
     .article-img {
         width: 35vh;
     }
 
-    /*FUNCTION*/
     .function-title h2 {
         font-size: 16px;
     }
@@ -592,7 +544,6 @@
         font-size: 13px;
     }
 
-    /*CARDS*/
     .cards-title h1 {
         font-size: 30px;
     }
@@ -606,7 +557,6 @@
         height: auto;
     }
 
-    /*LOCATION-CONTACTS*/
     .city-container {
         width: 300px;
     }
@@ -614,7 +564,6 @@
     .city-point {
         width: 120px;
     }
-
 }
 
 
